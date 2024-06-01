@@ -1,3 +1,11 @@
 ﻿using DesafioPOO.Models;
 
-// TODO: Realizar os testes com as classes Nokia e Iphone
+class Program
+{
+    static void Main(string[] args)
+    {
+        SmartphoneTests tests = new SmartphoneTests();
+        tests.TestNokiaSmartphone();
+        tests.TestiPhoneSmartphone();
+    }
+}
